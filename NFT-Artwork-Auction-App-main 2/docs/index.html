@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AuctionPIER NFT Marketplace</title>
+  <!-- Compiled and minified Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha256-OweaP/Ic6rsV+lysfyS4h+LM6sRwuO3euTYfr6M124g=" crossorigin="anonymous" />
+  <!-- FontAwesome icons -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="Stylesheet1.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body  {
+      background-image: url("../../ETH-Dapp-Auction-Project/docs/images/image2.png");
+       
+    }
+    </style>
+</head>
+
+<body class="white lighten-6">
+
+  <div class="container" style="text-align: center">
+     
+     
+    
+    <img class="row" src="./images/logoApr1v1.gif" alt="Artwork banner for website" width="750" height="auto"  >
+    <!-- <hr> -->
+    <div class="row">
+      <div class="col" height="300" width="300" style="
+      width: 500px; text-align:left;
+  ">
+       
+       <h1 class="titletext">AuctionPier. A blockchain powered marketplace for your next artistic masterpiece.</h1>
+       <div><p class="subheadingtext grey-text">AuctionPier is an Ethereum-connected marketplace for artistic masterpieces. Explore the pier today. </p></div>
+        <br>
+       <div><a type="button"  href="#browse-pier" class="btn btn-primary padding-right box-2 btn btn-two">Get Started </a>
+        <a type="button" href="#register-artwork" class="btn btn-light dapp-admin box-2 btn btn-two">Register Art</a>
+        <!-- Hover #2 -->
+ 
+        <a type="button" href="https://metamask.io/download/" class="btn btn-light dapp-metamasklink box-2 btn btn-two">Get MetaMask</a>
+      </div>
+       
+        
+      </div>
+      <div class="col " style="
+      width: 500px;">
+        
+
+          <img src="./images/image6.png" width="450" height="461" class=" " alt="..."> 
+        
+          
+        
+       
+      </div>
+      
+    </div>
+    <div class="section first-section">
+      
+       
+         
+    
+ 
+
+  <div class="black-text">
+    <h4 id="browse-pier">Cruise the Pier</h4>
+    <hr>
+  </div>
+
+  <div id="dapp-tokens" class="card row ">
+    <div class="card centerAllitems">
+      <div class="card-image centerAllitems">
+        <img id="dapp-image" src="">
+        <span id="dapp-name" class="card-title">Artwork Name</span>
+      </div>
+      <div class="card-action">
+        <a id="dapp-bid" href="#"> </a>
+      </div>
+    </div>
+  </div>
+   <br> <br>
+   <div class="black-text dapp-admin">
+    <h4 id="register-artwork">Register New Artwork </h4>
+    <hr>
+  </div>
+    <div class="col s12 m6 dapp-admin">
+      <div class=" card white lighten-6 black-text">
+        <div class="card-content black-text">
+         
+          <span class="card-title"><input id="dapp-register-name" placeholder="ArtWork name..." /></span>
+          <p>Image: <input id="dapp-copyright-image" type="file" /></p>
+
+          <p><input id="dapp-pinata-api-key" placeholder="Pinata API Key"/></p>
+          <p><input id="dapp-pinata-secret-api-key" placeholder="Pinata Secret API Key" type="password" /></p>
+                     <br/>
+                     <a class="btn btn-primary" id="dapp-register" href="#" onclick="dApp.registerArt()">Register Artwork</a>
+        </div>
+        
+        <div  >
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="black-text">
+      <h4 >AuctionPier Transactions</h4>
+      <hr>
+    </div>
+
+    <div id="dapp-auc-details" class="grey card col s12 m6">
+   
+      </div>
+    </div>
+
+    <div class="black-text">
+      <h4 >PierChat: Join the art confab.</h4>
+       
+    </div>
+    <div class="card  card2"  >
+       
+      <div class="card-body white lighten-6 black-text">
+        <h5 class="card-title text-center">  </h5>
+        <div class="col-sm-9 black-text float-left text-left customercomments">
+           
+          
+           
+          <div  >
+            <h4 class="centertext text-center" ></h4>
+            
+          </div>
+          <hr>
+            
+          <br><br>
+            
+            <div class="row">
+              
+              <div class="col-sm-10">
+                <div class="customercomments">
+                  
+                </div> <h4><img src="./images/eth_logo.png"    alt="Avatar"> Fintech_Lover123 <small>Feb 24, 2022, 9:12 PM</small></h4>
+                <p>I love <i class="material-icons">favorite</i> NFT artwork and this site is amazing! I would recommend it to anyone passionate about blockchain-based NFT artwork auctions.</p>
+                <br>
+              </div>
+              <div class="col-sm-2 text-center">
+                
+              </div>
+              <div class="col-sm-10">
+                <h4> <img src="./images/eth_logo.png"    alt="Avatar"> GorillaNFT_1990 <small>Feb 09, 2022, 8:25 PM</small></h4>
+                <p>I am so happy for this NFT art site! Finally. I am looking forward to hosting my artwork here.</p>
+                <br>
+                 
+                <div class="row">
+                  <div class="col-sm-2 text-center">
+                    
+                  </div>
+                  <div class="col-xs-10">
+                    <h4><img src="./images/eth_logo.png"    alt="Avatar"> Art_Teacher_888 <small>Jan 22, 2022, 8:28 PM</small></h4>
+                    <p>Me too! WOW!<i class="material-icons">favorite</i> <i class="material-icons">favorite</i></p>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+         
+      </div>
+       
+      
+    </div>
+ 
+    
+        
+    </div>
+
+  </div>
+
+ 
+  <!-- JQuery 3.4.1 slim minified -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript for Materialize CSS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha256-U/cHDMTIHCeMcvehBv1xQ052bPSbJtbuiw4QA9cTKz0=" crossorigin="anonymous"></script>
+  <!-- Web3.js -->
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.2.5-rc.0/dist/web3.min.js" integrity="sha256-ZjUHyLZZWkQPbWfRjTSmGtfcTSOermVT6f/CvJW2RY4=" crossorigin="anonymous"></script>
+  <!-- dApp JavaScript -->
+  <script src="dapp.js"></script>
+
+ 
+  <div class="black-text center">
+    <h4 >Github and Socials</h4>
+     
+  </div>
+
+<div class="card  card2 centeritem " style="width: 24.4rem;"> 
+  
+  
+  
+   
+
+  <a   href="https://github.com/benjaminweymouth/NFT-Artwork-Auction-App"  >  <button type="button" class="btn btn-success">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+</svg>
+    Github
+  </button> 
+</a>
+ 
+<a   href="https://www.linkedin.com/in/benjaminweymouth/"  > 
+
+  <button type="button" class="btn btn-success">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+<path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+</svg>
+    Ben
+  </button>
+
+  </a>
+
+  <a   href="https://www.linkedin.com/in/mohamed-berrachdi/"  > 
+
+    <button type="button" class="btn btn-success">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+  </svg>
+      Mo
+    </button>
+
+  </a>
+
+  <a   href="https://www.linkedin.com/in/sadiaparvinakbar/"  > 
+
+    <button type="button" class="btn btn-success">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+  </svg>
+      Sadia
+    </button>
+
+  </a>
+ 
+ 
+
+ 
+
+  
+
+ 
+
+</div>
+<br><br>
+
+</body>
+</html>

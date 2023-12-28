@@ -1,0 +1,198 @@
+body {
+    color: rgb(0, 0, 0);
+  }
+  
+ 
+
+  .imgborder {
+    border: 5px solid rgba(95, 14, 105, 0.932);
+  }
+
+  .customercomments {
+    padding-left: 5px;
+  }
+
+  .fontgruppo {
+    font-family:'Trebuchet MS';font-size: 22px;
+   }
+  
+   .card2 {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.centertext {
+
+  text-align: center;
+  
+  }
+
+  .resizeimg {
+    width: 300px;
+    height: 300px;
+  }
+
+  .cardsize
+  {
+    width: 30rem;
+    height: 50rem;
+  }
+
+  .subheadingtext
+  {
+    font-style: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titletext
+  {
+    font-style: bold;
+    font-size: 42px;
+     
+  }
+  .restrictimgsize
+  {
+    max-width: 450px;
+    max-height: 549px;
+  }
+
+  .fa {
+      padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+     margin: 1px 1px;  
+    border-radius: 50%;  
+    text-align: center;
+
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-github {
+    background: #000000;
+    color: white;
+  }
+
+  .centeritem {
+    margin: auto;
+    width: 60%;
+     
+  }
+  /* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.imgcenter {
+  text-align: center;
+  display: flex;
+      justify-content: center;
+
+}
+
+div[class*=box] {
+  height: 33.33%;
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-1 { background-color: #FF6766; }
+.box-2 { background-color: #3C3C3C; }
+.box-3 { background-color: #66A182; }
+
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  
+  cursor: pointer;
+}
+
+.btn-two {
+  color: #FFF;
+  transition: all 0.5s;
+  position: relative; 
+}
+.btn-two span {
+  z-index: 2; 
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+}
+.btn-two::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.1);
+}
+.btn-two::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.1);
+}
+.btn-two:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(255,255,255,0);
+}
+.btn-two:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(255,255,255,0);
+}
+
+.centerAllitems {
+  display: block;
+  margin-left: auto;
+  margin-right: auto }
